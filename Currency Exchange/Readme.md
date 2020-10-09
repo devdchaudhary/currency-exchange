@@ -24,6 +24,8 @@ Steps to run and build the application:
 4. Save the exchange rate value.
 5. View that rate whenever your want.
 
+Currency Exchange/Simulator Screen Shot - iPhone 8 - 2020-10-09 at 15.27.21.png
+
 * No additional steps to build and test the app. Just build and run it.
 * I am limited by the number of currencies could add due to the price of the API as well
   as it’s limits for calls in the free API.
