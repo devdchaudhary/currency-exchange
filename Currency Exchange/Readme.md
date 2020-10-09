@@ -24,8 +24,7 @@ Steps to run and build the application:
 4. Save the exchange rate value.
 5. View that rate whenever your want.
 
-![Alt text](/relative/path/to/Simulator%20Screen%20Shot%20-%20iPhone%208%20-%202020-10-09%20at%2015.27.21.pngraw=true "Optional Title")
-
+![Alt text](/relative/path/to/screenshot.png?raw=true "Optional Title")
 
 * No additional steps to build and test the app. Just build and run it.
 * I am limited by the number of currencies could add due to the price of the API as well
