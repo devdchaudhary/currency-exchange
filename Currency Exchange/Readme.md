@@ -1,7 +1,7 @@
 
 
 
-                                        ReadMe
+README
 
 
 Instructions to run “Currency Exchange”
@@ -11,6 +11,16 @@ Instructions to run “Currency Exchange”
  AC is for deleting all the values types into the usd field.
  DEL is to delete the last value types
  SAVE saves your exchange rate at that particular time for future reference.
+ 
+Before you start using: 
+
+1. Goto AlphaVantage website
+2. Register for an API Key
+3. Inside the Client.Swift file go and paste your API Key 
+
+```
+
+```
  
 Intended User experience:
 
