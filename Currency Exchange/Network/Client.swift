@@ -12,7 +12,7 @@ class USDClient {
     
     func USDtoEUR(from: String, to: String, completionHandler: @escaping (ExchangeRate?, Error?) -> Void) {
         
-        let urlString = "https://www.alphavantage.co/query?function=CURRENCY_EXCHANGE_RATE&from_currency=\(from)&to_currency=\(to)&apikey="
+        let urlString = "https://www.alphavantage.co/query?function=CURRENCY_EXCHANGE_RATE&from_currency=\(from)&to_currency=\(to)&apikey=YOUR_API_KEY"
         let task = URLSession.shared.dataTask(with: URL(string: urlString)!, completionHandler: { data, response, error in
             if error != nil {
                 completionHandler(nil, error!)
@@ -30,7 +30,7 @@ class USDClient {
     
     func USDtoGBP(from: String, to: String, completionHandler: @escaping (ExchangeRate?, Error?) -> Void) {
         
-        let urlString = "https://www.alphavantage.co/query?function=CURRENCY_EXCHANGE_RATE&from_currency=\(from)&to_currency=\(to)&apikey="
+        let urlString = "https://www.alphavantage.co/query?function=CURRENCY_EXCHANGE_RATE&from_currency=\(from)&to_currency=\(to)&apikey=YOUR_API_KEY"
         let task = URLSession.shared.dataTask(with: URL(string: urlString)!, completionHandler: { data, response, error in
             if error != nil {
                 completionHandler(nil, error!)
@@ -48,7 +48,7 @@ class USDClient {
     
     func USDtoINR(from: String, to: String, completionHandler: @escaping (ExchangeRate?, Error?) -> Void) {
         
-        let urlString = "https://www.alphavantage.co/query?function=CURRENCY_EXCHANGE_RATE&from_currency=\(from)&to_currency=\(to)&apikey="
+        let urlString = "https://www.alphavantage.co/query?function=CURRENCY_EXCHANGE_RATE&from_currency=\(from)&to_currency=\(to)&apikey=YOUR_API_KEY"
         let task = URLSession.shared.dataTask(with: URL(string: urlString)!, completionHandler: { data, response, error in
             if error != nil {
                 completionHandler(nil, error!)
