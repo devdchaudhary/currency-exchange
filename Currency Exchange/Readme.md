@@ -16,10 +16,10 @@ Before you start using:
 
 1. Goto AlphaVantage website
 2. Register for an API Key
-3. Inside the Client.Swift file go and paste your API Key 
+3. Inside the Client.Swift file go and paste your API Key everywhere it says "YOUR_API_KEY"
 
 ```
-
+let urlString = "https://www.alphavantage.co/query?function=CURRENCY_EXCHANGE_RATE&from_currency=\(from)&to_currency=\(to)&apikey=YOUR_API_KEY"
 ```
  
 Intended User experience:
